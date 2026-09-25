@@ -1,39 +1,3 @@
-### starter.sql
-
-```sql
--- STUDENT NORMALIZATION ASSIGNMENT
---
--- Original table:
--- Student(StudentID, StudentName, CourseName, FacultyName, DepartmentName)
---
--- Normalize the table up to Third Normal Form (3NF).
---
--- Write your normalized CREATE TABLE statements below.
-
-
--- Table 1
--- CREATE TABLE ...
-
-
--- Table 2
--- CREATE TABLE ...
-
-
--- Table 3
--- CREATE TABLE ...
-
-
--- Table 4
--- CREATE TABLE ...
-```
-
----
-
-### answers.sql
-
-```sql
--- Student Table Normalization up to 3NF
-
 CREATE TABLE DEPARTMENT (
     DepartmentID NUMBER(5) PRIMARY KEY,
     DepartmentName VARCHAR2(30) NOT NULL
